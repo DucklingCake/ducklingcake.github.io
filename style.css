@@ -4,6 +4,7 @@ a {
 body {
 	font-family: Arial;
 	color: white;
+	background-image: url(http://i.cubeupload.com/WHTnid.png);
 }
 h2 {
 	text-align: center;
@@ -35,11 +36,4 @@ nav ul li {
 	padding: 10px;
 	margin: 0px 10px;
 	text-align: center;
-}
-.logo {
-	float: left;
-	background-image: url(http://i.cubeupload.com/ftmgMj.jpg);
-}
-.right {
-	float: right;
 }
