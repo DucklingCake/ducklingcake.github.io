@@ -37,14 +37,9 @@ nav ul li {
 	text-align: center;
 }
 .logo {
-	width: 250px;
-	height: 250px;
 	float: left;
-	background-image: url(https://avatars0.githubusercontent.com/u/19639720?v=3&s=460);
-	margin-left: 100px;
+	background-image: url(http://i.cubeupload.com/ftmgMj.jpg);
 }
 .right {
-	width: 400px;
-	height: 250px;
 	float: right;
 }
