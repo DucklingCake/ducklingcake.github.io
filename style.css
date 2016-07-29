@@ -1,1 +1,37 @@
+a {
+  text-decoration: none;
+}
+body {
+	font-family: Arial;
+	color: white;
+}
+h2 {
+	text-align: center;
+}
+img {
+	text-align: center;
+}
+html {
+	margin-top: 100px;
+	margin-right: 150px;
+	margin-bottom: 100px;
+	margin-left: 150px;
+	text-align: justify;
+}
+span {
+	font-family: cursive;
+}
+nav ul {
+	
+	list-style:none;
+	background-color: #404040;
+	padding: 10px;
+}
 
+nav ul li {
+	
+	display: inline-block;
+	background-color: #737373;
+	padding: 10px;
+	margin: 0px 10px;
+	text-align: center;
