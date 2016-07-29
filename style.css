@@ -35,3 +35,16 @@ nav ul li {
 	padding: 10px;
 	margin: 0px 10px;
 	text-align: center;
+}
+.logo {
+	width: 250px;
+	height: 250px;
+	float: left;
+	background-image: url(https://avatars0.githubusercontent.com/u/19639720?v=3&u=da4305733387083a7c3edeb72377173a242d0296&s=140);
+	margin-left: 100px;
+}
+.right {
+	width: 400px;
+	height: 250px;
+	float: right;
+}
