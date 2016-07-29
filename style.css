@@ -6,6 +6,7 @@ body {
 	color: white;
 	background-image: url(http://i.cubeupload.com/WHTnid.png);
 	background-repeat: repeat-y;
+	background-repeat: repeat-x;
 }
 h2 {
 	text-align: center;
