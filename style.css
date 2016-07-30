@@ -1,6 +1,18 @@
 a {
   text-decoration: none;
 }
+a:link {
+    color: white;
+}
+a:visited {
+    color: #e6e6e6;
+}
+a:hover {
+    color: #b3b3b3;
+}
+a:active {
+    color: #b3b3b3;
+}
 body {
 	font-family: Arial;
 	background-image: url(http://i.cubeupload.com/WHTnid.png);
