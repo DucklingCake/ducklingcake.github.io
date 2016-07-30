@@ -18,7 +18,6 @@ body {
 	background-image: url(http://i.cubeupload.com/WHTnid.png);
 }
 html {
-	margin-top: 100px;
 	margin-right: 150px;
 	margin-bottom: 100px;
 	margin-left: 150px;
@@ -43,6 +42,7 @@ nav ul li {
 	padding: 10px;
 	margin: 0px 10px;
 	text-align: center;
+        border-radius: 10px;
 }
 .body {
 	background-color: #FFFFFF;
