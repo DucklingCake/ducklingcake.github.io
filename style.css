@@ -27,6 +27,9 @@ span {
 	font-family: cursive;
 	text-indent: 50px;
 }
+br {
+	text-indent: 50px;	
+}
 nav ul {
 	
 	list-style:none;
