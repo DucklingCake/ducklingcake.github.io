@@ -54,3 +54,16 @@ nav ul li {
 	float: right;
         border-radius: 10px;
 }
+h1 {
+ 	font-family: Arial;
+ 	font-size: 120px;
+ 	color: #FFFFFF;
+ 	text-align: center;
+     	font-weight: bold;
+ }
+ h2 {
+ 	 font-family: Arial;
+ 	font-size: 60px;
+ 	color: black;
+ 	text-align: center;
+ }
