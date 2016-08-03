@@ -61,13 +61,9 @@ h1 {
  	text-align: center;
      	font-weight: bold;
  }
- h2 {
+ main {
  	 font-family: Arial;
  	font-size: 60px;
  	color: black;
  	text-align: center;
  }
-center {
-	margin-left: 100;
-	margin-right: 100;
-}
