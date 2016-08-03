@@ -67,3 +67,7 @@ h1 {
  	color: black;
  	text-align: center;
  }
+center {
+	margin-left: 100;
+	margin-right: 100;
+}
