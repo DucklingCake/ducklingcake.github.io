@@ -13,6 +13,9 @@ nav a:hover {
 nav a:active {
     color: #d9d9d9;
 }
+.active {
+    color: #d9d9d9;	
+}
 body {
 	font-family: Arial;
 	background-image: url(http://i.cubeupload.com/WHTnid.png);
