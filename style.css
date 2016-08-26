@@ -34,20 +34,24 @@ nav ul {
 	background-color: #FFFFFF;
 	padding: 10px;
 	text-align: center;
+	margin-left: 230px;
+	margin-right: 230px;
 }
 nav ul li {
 	
 	display: inline-block;
 	background-color: #23BF68;
 	padding: 10px;
+	padding-left: 50;
+	padding-right: 50;
 	text-align: center;
 	border-radius: 10px;
 }
 .body {
 	background-color: #FFFFFF;
-	padding-top: 20px;
+	padding-top: 15px;
 	margin-right: 230px;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 	margin-left: 230px;
 	padding-right: 20px;
 	padding-left: 20px;
