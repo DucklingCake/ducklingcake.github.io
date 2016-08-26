@@ -46,9 +46,11 @@ nav ul li {
 .body {
 	background-color: #FFFFFF;
 	padding-top: 20px;
-	padding-right: 150px;
+	margin-right: 230px;
 	padding-bottom: 20px;
-	padding-left: 150px;
+	margin-left: 230px;
+	padding-right: 20px;
+	padding-left: 20px;
 	float: right;
 }
 h1 {
