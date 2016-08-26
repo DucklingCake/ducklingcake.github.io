@@ -35,14 +35,12 @@ nav ul {
 	padding: 10px;
 	text-align: center;
 }
-
 nav ul li {
 	
 	display: inline-block;
 	background-color: #23BF68;
 	padding: 10px;
-	margin: 0px 10px;
-	text-align: center;
+	border-radius: 10px;
 }
 .body {
 	background-color: #FFFFFF;
@@ -59,7 +57,7 @@ h1 {
  	text-align: center;
      	font-weight: bold;
  }
- main {
+main {
  	font-family: Arial;
  	font-size: 60px;
  	color: black;
