@@ -44,6 +44,8 @@ nav ul li {
 	padding: 10px;
 	padding-left: 50;
 	padding-right: 50;
+	margin-left: 50;
+	margin-right: 50;
 	text-align: center;
 	border-radius: 10px;
 }
