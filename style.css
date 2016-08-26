@@ -45,9 +45,9 @@ nav ul li {
 .body {
 	background-color: #FFFFFF;
 	padding-top: 20px;
-	padding-right: 20px;
+	padding-right: 150px;
 	padding-bottom: 20px;
-	padding-left: 20px;
+	padding-left: 150px;
 	float: right;
 }
 h1 {
@@ -65,8 +65,4 @@ main {
  }
 h3 {
 	font-weight: normal;
-}
-.about {
-	padding-right: 200px;
-	padding-left: 200px;
 }
