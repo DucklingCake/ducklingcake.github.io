@@ -8,12 +8,6 @@ body {
   color: #333;
 }
 
-img {
-  width: 250px;
-  height: auto;
-  margin: -24px 0 24px 0;
-}
-
 h1 {
   margin: 0;
   font-size: 2em;
