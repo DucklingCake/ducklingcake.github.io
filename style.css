@@ -1,77 +1,60 @@
-a {
-  text-decoration: none;
-}
-nav a:link {
-    color: white;
-}
-nav a:visited {
-    color: white;
-}
-nav a:hover {
-    color: #d9d9d9;
-}
-nav a:active {
-    color: #d9d9d9;
-}
-.active {
-    color: #d9d9d9;	
-}
 body {
-	font-family: Arial;
-	background-image: url(http://i.cubeupload.com/WHTnid.png);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Oxygen', sans-serif;
+  color: #333;
 }
-html {
-	margin-bottom: 100px;
-	text-align: justify;
+
+img {
+  width: 250px;
+  height: auto;
+  margin: -24px 0 24px 0;
 }
-span {
-	font-family: cursive;
-	text-indent: 50px;
-}
-nav ul {
-	
-	list-style:none;
-	background-color: #FFFFFF;
-	padding: 10px;
-	text-align: center;
-	margin-left: 230px;
-	margin-right: 230px;
-}
-nav ul li {
-	
-	display: inline-block;
-	background-color: #23BF68;
-	padding: 10px;
-	padding-left: 50;
-	padding-right: 50;
-	margin-left: 50;
-	margin-right: 50;
-	text-align: center;
-	border-radius: 10px;
-}
-.body {
-	background-color: #FFFFFF;
-	padding-top: 15px;
-	margin-right: 230px;
-	padding-bottom: 15px;
-	margin-left: 230px;
-	padding-right: 20px;
-	padding-left: 20px;
-	float: right;
-}
+
 h1 {
- 	font-family: Arial;
- 	font-size: 120px;
- 	color: #FFFFFF;
- 	text-align: center;
-     	font-weight: bold;
- }
-main {
- 	font-family: Arial;
- 	font-size: 60px;
- 	color: black;
- 	text-align: center;
- }
-h3 {
-	font-weight: normal;
+  margin: 0;
+  font-size: 3em;
+  font-weight: 900;
+}
+
+p {
+  font-weight: 300;
+  color: #aaa;
+  font-size: 0.75em;
+}
+
+.link-catagories {
+  display: flex;
+  flex-direction: row;
+  max-width: 450px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.link-catagory {
+  width: 150px;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 0.75em;
+  color: #6EC6B1;
+  line-height: 1.5em;
+}
+
+a:hover {
+  color: #49A992;
+}
+
+h2 {
+  font-weight: 500;
 }
