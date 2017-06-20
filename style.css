@@ -41,12 +41,12 @@ a {
   text-decoration: none;
   font-weight: 900;
   font-size: 0.75em;
-  color: #3366BB;
+  color: #00BFFF;
   line-height: 1.5em;
 }
 
 a:hover {
-  color: #0645AD;
+  color: #0099CC;
 }
 
 h2 {
