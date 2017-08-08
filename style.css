@@ -52,3 +52,10 @@ a:hover {
 h2 {
   font-weight: 500;
 }
+span {
+  color: #FF5420;
+}
+span:hover {
+  color: #E82903;
+}
+  
