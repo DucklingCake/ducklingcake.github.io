@@ -1,5 +1,9 @@
+body {
+  text-align: center;
+}
 h1 {
   font-family: 'Just Another Hand', cursive;
+  font-size: 3em;
 }
 p {
  font-family: 'Raleway', sans-serif;
