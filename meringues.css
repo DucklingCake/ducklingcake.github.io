@@ -8,3 +8,8 @@ h1 {
 p {
  font-family: 'Raleway', sans-serif;
 }
+#header {
+  width: 480px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
