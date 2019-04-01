@@ -23,7 +23,6 @@ p {
 .link-catagories {
   display: flex;
   flex-direction: row;
-  max-width: 450px;
   text-align: center;
 }
 
