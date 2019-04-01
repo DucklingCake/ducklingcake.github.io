@@ -6,6 +6,10 @@ body {
   font-family: 'Oxygen', sans-serif;
   color: #333;
   background-image: url("bkgrd.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 .stuff {
   background-color: white;
