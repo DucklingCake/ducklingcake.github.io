@@ -1,11 +1,11 @@
 body {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'Oxygen', sans-serif;
   color: #333;
+  background-image: bkgrd.jpg;
 }
 
 h1 {
@@ -13,7 +13,10 @@ h1 {
   font-size: 3em;
   font-weight: 500;
 }
-
+.stuff {
+  backgroun-color: white;
+  opacity: 0.5;
+}
 p {
   font-weight: 300;
   color: #aaa;
