@@ -9,7 +9,6 @@ body {
 }
 .stuff {
   background-color: white;
-  opacity: 0.5;
   padding: 20px;
 }
 h1 {
@@ -17,30 +16,22 @@ h1 {
   margin: 0;
   font-size: 3em;
   font-weight: 500;
-  opacity: 1;
 }
 p {
   font-weight: 300;
   color: #aaa;
   font-size: 1em;
-  opacity: 1;
 }
 
 .link-catagories {
   text-align: center;
-  opacity: 1;
 }
 h2 {
   font-weight: 400;
   font-size: 1.5em
-  opacity: 1;
 }
 img {
   width: 30px;
   height: 30px;
   padding-bottom: 7.5px
-  opacity: 1;
-}
-.not {
-  opacity: 1;
 }
