@@ -21,27 +21,11 @@ p {
 }
 
 .link-catagories {
-  display: flex;
-  flex-direction: row;
   text-align: center;
-}
-
-.links {
-  display: flex;
-  flex-direction: column;
 }
 
 .link-catagory {
   width: 150px;
-}
-
-a {
-  text-transform: uppercase;
-  text-decoration: none;
-  font-weight: 900;
-  font-size: 3em;
-  color: #00BFFF;
-  line-height: 1.5em;
 }
 
 a:hover {
