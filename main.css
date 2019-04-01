@@ -10,14 +10,14 @@ body {
 
 h1 {
   margin: 0;
-  font-size: 8em;
+  font-size: 3em;
   font-weight: 500;
 }
 
 p {
   font-weight: 300;
   color: #aaa;
-  font-size: 3em;
+  font-size: 1em;
 }
 
 .link-catagories {
@@ -55,10 +55,10 @@ h2 {
 }
 span {
   color: #FF5420;
-  font-size: 2em
+  font-size: 1.5em;
 }
 img {
   width: 30px;
   height: 30px;
-  padding-bottom: 10px
+  padding-bottom: 7.5px
 }
