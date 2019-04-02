@@ -38,6 +38,6 @@ img {
   height: 30px;
   box-shadow: 0px 0px 5px #232323;
   border-radius: 15px;
-  left-padding: 10px;
-  right-padding: 10px;
+  left-margin: 10px;
+  right-margin: 10px;
 }
