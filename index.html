@@ -8,6 +8,29 @@
     <div class="stuff">
     <h1>leo rothstein</h1>
     <p>hi, wel<b>cum</b> to my website! i'm a stupid bitch</p>
+<script type="text/javascript">
+
+today = new Date();
+
+BigDay = new Date("january 24, 2020");
+
+msPerDay = 24 * 60 * 60 * 1000 ;
+
+timeLeft = (BigDay.getTime() - today.getTime());
+
+e_daysLeft = timeLeft / msPerDay;
+
+daysLeft = Math.floor(e_daysLeft);
+
+e_hrsLeft = (e_daysLeft - daysLeft)*24;
+
+hrsLeft = Math.floor(e_hrsLeft);
+
+minsLeft = Math.floor((e_hrsLeft - hrsLeft)*60);
+
+document.write(<p>" + daysLeft + " days " + hrsLeft +" hours and " + minsLeft + " minutes left " until my birthday :)<P>");
+
+</script>
     <div class="link-catagories">
         <h2>where to find me</h2>
           <a href="https://twitter.com/leorstein"><img src="twitter.png" alt="twitter"></a>
