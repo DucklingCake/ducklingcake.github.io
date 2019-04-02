@@ -8,7 +8,7 @@
     <div class="stuff">
     <h1>leo rothstein</h1>
     <p>hi, wel<b>cum</b> to my website! i'm a stupid bitch</p>
-<p></p>
+<p id="date"></p>
       
 <script>
 // Set the date we're counting down to
@@ -29,14 +29,14 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("demo").innerHTML = days + "days " + hours + "hours "
+  // Display the result in the element with id="date"
+  document.getElementById("date").innerHTML = days + "days " + hours + "hours "
   + minutes + "minutes " + seconds + "seconds until my birthday :) ";
 
   // If the count down is finished, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("date").innerHTML = "EXPIRED";
   }
 }, 1000);
 </script>
