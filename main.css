@@ -47,3 +47,9 @@ img:hover {
 #panel {
   display: none;
 }
+#weeniw {
+    width: 350px;
+    height: 350px;
+    box-shadow: none;
+    border-radius: 0;
+}
