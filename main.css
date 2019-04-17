@@ -44,12 +44,3 @@ img {
 img:hover {
   box-shadow: 0px 0px 10px #232323;
 }
-#panel {
-  display: none;
-}
-#weenie {
-    width: 350px;
-    height: 350px;
-    box-shadow: none;
-    border-radius: 0;
-}
