@@ -6,7 +6,7 @@ body {
   font-family: 'Oxygen', sans-serif;
   color: #232323;
   background-image: url("bkgrd.jpg");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
