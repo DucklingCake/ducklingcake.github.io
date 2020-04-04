@@ -4,6 +4,7 @@
     <title>leo rothstein's portfolio</title>
   </head>
 <style>
+
 body {
   font-family: 'Oxygen', sans-serif;
   color: #232323;
@@ -43,10 +44,31 @@ th {
 a {
   text-decoration: none;
   color: white;
-  transition: text-decoration .3s;
 }
-a:hover {
-  text-decoration: underline;
+.container {
+  position: relative;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  margin: 10px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container:hover .overlay {
+  opacity: 1;
 }
 </style>
   <body> 
@@ -56,22 +78,22 @@ a:hover {
     <table>
       <tr>
         <th>
-         <img src="portrait.jpg">
-         <img src="11.jpg">
-         <img src="34.jpg">
-         <img src="angry lemons.jpg">
-         <img src="plant and eye.jpg">
-         <img src="IMG_3173.jpg">
-         <img src="IMG_3244 2.jpg">
-         <img src="DSC03352.JPG">
-         <img src="LRG_DSC03801.JPG">
-         <img src="LRG_DSC04018.JPG">
-         <img src="eboy peppa pig.png">
-         <img src="passion1.jpg">
-         <img src="passion2.jpg">
-         <img src="flowers.jpg">
-         <img src="cars.jpg">
-         <img src="mirror.jpg">
+         <div class="container"><img src="portrait.jpg"><div class="overlay">quarantine day 22 photoshoot</div></div>
+         <div class="container"><img src="11.jpg"><div class="overlay">slushees at the gas station on film</div></div>
+         <div class="container"><img src="34.jpg"><div class="overlay">friends and the mountains on film</div></div>
+         <div class="container"><img src="angry lemons.jpg"><div class="overlay">quarantine day 21 photoshoot (angry lemons)</div></div>
+         <div class="container"><img src="plant and eye.jpg"><div class="overlay">quarantine day 21 photoshoot</div></div>
+         <div class="container"><img src="IMG_3173.jpg"><div class="overlay">2 inch are project for school</div></div>
+         <div class="container"><img src="IMG_3244 2.jpg"><div class="overlay">process for piece titled "blameless" for school</div></div>
+         <div class="container"><img src="DSC03352.JPG"><div class="overlay">digital shot from camp</div></div>
+         <div class="container"><img src="LRG_DSC03801.JPG"><div class="overlay">my camp cit shelf</div></div>
+         <div class="container"><img src="LRG_DSC04018.JPG"><div class="overlay">camp potter cup</div></div>
+         <div class="container"><img src="eboy peppa pig.png"><div class="overlay">photoshoppsed eboy peppa pig</div></div>
+         <div class="container"><img src="passion1.jpg"><div class="overlay">photo for passion project at school</div></div>
+         <div class="container"><img src="passion2.jpg"><div class="overlay">photo for passion project at school</div></div>
+         <div class="container"><img src="flowers.jpg"><div class="overlay">part of my photo 2 final</div></div>
+         <div class="container"><img src="cars.jpg"><div class="overlay">part of my photo 2 final</div></div>
+         <div class="container"><img src="mirror.jpg"><div class="overlay">part of my photo 1 final</div></div>
         </th>
        <th>
          <img src="big star.jpg">
