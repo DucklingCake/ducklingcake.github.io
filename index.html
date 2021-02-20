@@ -14,7 +14,7 @@
     <p id="date"></p>
       
 <script>
-var countDownDate = new Date("Jan 24, 2022 00:00:00").getTime();
+var countDownDate = new Date("Jan 24").getTime();
 var x = setInterval(function() {
   var now = new Date().getTime();
   var distance = countDownDate - now;
@@ -26,7 +26,7 @@ var x = setInterval(function() {
   + minutes + " minutes, and " + seconds + " seconds until my birthday :)";
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("date").innerHTML = "my birthday has passed";
+    document.getElementById("date").innerHTML = "it's my birthday today!";
   }
 }, 1000);
 </script>
